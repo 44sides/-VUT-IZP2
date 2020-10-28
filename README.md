@@ -30,29 +30,29 @@ kde:
 ### Nápověda a vzorce
 Voltampérová charakteristika diody v sériovém zapojení s rezistorem:
 
-
+![Image alt](https://github.com/44sides/-VUT-IZP2/blob/main/img/Vadiody.png)
 
 Proud v rezistoru:
 
-
+![Image alt](https://github.com/44sides/-VUT-IZP2/blob/main/img/Resistor.png)
 
 Napětí na rezistoru:
 
-
+![Image alt](https://github.com/44sides/-VUT-IZP2/blob/main/img/Kz2.png)
 
 Proud v diodě (Shockleyova rovnice):
 
-
+![Image alt](https://github.com/44sides/-VUT-IZP2/blob/main/img/Dioda.png)
 
 Přičemž uvažujme, že závěrný saturační proud a tepelné napětí mají tyto hodnoty:
 
+![Image alt](https://github.com/44sides/-VUT-IZP2/blob/main/img/I0.png)
 
-
-
+![Image alt](https://github.com/44sides/-VUT-IZP2/blob/main/img/Ut.png)
 
 Protože je obvod uzavřený, platí 1. Kirchhoffův zákon:
 
-
+![Image alt](https://github.com/44sides/-VUT-IZP2/blob/main/img/Kz1.png)
 
 ### 1. podúkol
 Vyjádřete poslední rovnici pomocí napětí U_p, U_0 a R.
