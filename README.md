@@ -68,28 +68,40 @@ Napište funkci diode, která pomocí schematu z 2. podúkolu a vzorce z 1. pod�
 Ve funkci je u0 hodnota vstupního napětí, r je odpor rezistoru a eps je absolutní přesnost (maximální požadovaná odchylka). Funkce v návratové hodnotě vrací nalezené napětí U_p.
 
 ### Příklady výstupů
-`$ ./proj2 12 47 1e-2
+```sh
+$ ./proj2 12 47 1e-2
 Up=0.673828 V
-Ip=0.207937 A`
+Ip=0.207937 A
+```
 
-`$ ./proj2 12 47 1e-7
+```sh
+$ ./proj2 12 47 1e-7
 Up=0.677633 V
-Ip=0.240902 A`
+Ip=0.240902 A
+```
 
-`$ ./proj2 24 330 1e-7
+```sh
+$ ./proj2 24 330 1e-7
 Up=0.64596 V
-Ip=0.0707696 A`
+Ip=0.0707696 A
+```
 
-`$ ./proj2 24 330 1e-20
+```sh
+$ ./proj2 24 330 1e-20
 Up=0.64596 V
-Ip=0.0707698 A`
+Ip=0.0707698 A
+```
 
-`$ ./proj2 inf 5 .5
+```sh
+$ ./proj2 inf 5 .5
 Up=inf V
-Ip=inf A`
+Ip=inf A
+```
 
-`$ ./proj2 -33 5 .1
-error: invalid arguments`
+```sh
+$ ./proj2 -33 5 .1
+error: invalid arguments
+```
 ## Hodnocení
 Na výsledném hodnocení mají hlavní vliv následující faktory:
 
